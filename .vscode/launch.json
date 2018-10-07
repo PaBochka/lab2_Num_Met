@@ -6,6 +6,14 @@
     "configurations": [
         
         {
+            "name": "Python 3_conda",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "externalTerminal",
+            "pythonPath": "/home/pavel/anaconda3/bin/python3.6"        
+        },
+        {
             "name": "Python 3",
             "type": "python",
             "request": "launch",
